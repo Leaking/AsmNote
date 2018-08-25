@@ -24,7 +24,7 @@ public class CopyClass {
         }
     }
 
-    private void call(String inputPath, String outputPath) {
+    private void copy(String inputPath, String outputPath) {
         try {
             FileInputStream is = new FileInputStream(inputPath);
 
