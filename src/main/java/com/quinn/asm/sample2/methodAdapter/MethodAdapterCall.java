@@ -1,11 +1,11 @@
-package com.quinn.asm.sample2;
+package com.quinn.asm.sample2.methodAdapter;
 
 import org.objectweb.asm.MethodVisitor;
 import org.objectweb.asm.Opcodes;
 
-class MethodAdapter extends MethodVisitor implements Opcodes {
+public class MethodAdapterCall extends MethodVisitor implements Opcodes {
 
-    public MethodAdapter(final MethodVisitor mv) {
+    public MethodAdapterCall(final MethodVisitor mv) {
         super(ASM5, mv);
     }
 

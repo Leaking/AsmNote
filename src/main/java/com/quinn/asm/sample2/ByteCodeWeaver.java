@@ -4,6 +4,7 @@ import com.quinn.asm.common.PathUtils;
 import org.objectweb.asm.ClassReader;
 import org.objectweb.asm.ClassWriter;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -14,8 +15,8 @@ import java.io.IOException;
 public class ByteCodeWeaver {
 
     public static void main(String[] args) {
-        String inputFile = "/Users/quinn/Documents/workspaces/asmnote/out/production/classes/com/quinn/asm/sample2/MethodCall.class";
-        String outputFile = PathUtils.getGenerateClassPath("MethodCall2.class");
+        String inputFile = PathUtils.getWorkspacePath() + File.separator + "out/production/classes/com/quinn/asm/sample2/MethodCall.class";
+        String outputFile = PathUtils.getGenerateClassPath("MethodCall.class");
         run(inputFile, outputFile);
     }
 

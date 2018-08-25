@@ -1,4 +1,4 @@
-package com.quinn.asm.sample2;
+package com.quinn.asm.sample2.target;
 
 public class MethodCallInstrumented {
 
