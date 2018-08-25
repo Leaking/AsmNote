@@ -3,10 +3,9 @@ package com.quinn.asm.sample2;
 public class MethodCall {
 
     public static void main(String[] args) {
-        printOne();
-        printOne();
+        printOne(); printOne();
         printTwo();
-    }
+        printTwo(); }
 
     private static void printOne() {
         System.out.println("Hello World");
