@@ -10,12 +10,12 @@ public class MethodCall {
 
     private static void printOne() {
         System.out.println("Hello World");
-        int a = 5/0;
     }
 
     private static void printTwo() {
         printOne();
         printOne();
+        int a = 5/0;
     }
 
     private static void mutiReturn() {

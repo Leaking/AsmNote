@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16b7e004-6771-462f-ae05-69b249b1f171" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/handler/LogManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/methodAdapter/MethodAdapterTimingVarSorterLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/target/MethodCallTimingLog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/quinn/asm/sample2/MethodCall.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/quinn/asm/sample2/MethodCall.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/quinn/asm/sample2/target/MethodCallTiming.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/quinn/asm/sample2/target/MethodCallTiming.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/quinn/asm/sample2/ClassAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/quinn/asm/sample2/ClassAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/quinn/asm/sample2/MethodCall.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/resources/class/MethodCall.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/class/MethodCall.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/ByteCodeWeaver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/ByteCodeWeaver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/ClassAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/ClassAdapter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/MethodCall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/MethodCall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/target/MethodCallTiming.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/target/MethodCallTiming.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/class/MethodCall.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/methodAdapter/MethodAdapterTimingVarSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/methodAdapter/MethodAdapterTimingVarSorter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/class/MethodCall.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/class/MethodCall.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -37,11 +39,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ByteCodeWeaver.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ByteCodeWeaver.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/ByteCodeWeaver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="27" column="73" lean-forward="true" selection-start-line="27" selection-start-column="73" selection-end-line="27" selection-end-column="73" />
+            <state relative-caret-position="284">
+              <caret line="31" column="14" lean-forward="true" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,11 +51,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClassReader.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/6.2.1/cee28077ac7a63d3de0b205ec314d83944ff6267/asm-6.2.1-sources.jar!/org/objectweb/asm/ClassReader.java">
+      <file leaf-file-name="MethodAdapterTimingVarSorter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/methodAdapter/MethodAdapterTimingVarSorter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="62" column="57" selection-start-line="62" selection-start-column="43" selection-end-line="62" selection-end-column="57" />
+            <state relative-caret-position="542">
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
+              <folding>
+                <element signature="e#1383#1384#0" expanded="true" />
+                <element signature="e#1437#1438#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClassAdapter.class" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/out/production/classes/com/quinn/asm/sample2/ClassAdapter.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#798#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MethodCall2.class" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/class/MethodCall2.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="267">
+              <caret line="41" column="46" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -61,8 +88,8 @@
       <file leaf-file-name="MethodCall.class" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/class/MethodCall.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+            <state relative-caret-position="169">
+              <caret line="52" column="28" lean-forward="true" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -70,44 +97,24 @@
       <file leaf-file-name="MethodCall.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/MethodCall.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+            <state relative-caret-position="255">
+              <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+              <folding>
+                <element signature="e#215#216#0" expanded="true" />
+                <element signature="e#264#265#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MethodCall.class" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/out/production/classes/com/quinn/asm/sample2/MethodCall.class">
+      <file leaf-file-name="ClassAdapter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/ClassAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LocalVariablesSorter.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/6.2.1/667fa0f9d370e7848b0e3d173942855a91fd1daf/asm-commons-6.2.1-sources.jar!/org/objectweb/asm/commons/LocalVariablesSorter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="189" column="81" lean-forward="true" selection-start-line="189" selection-start-column="81" selection-end-line="189" selection-end-column="81" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Context.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/6.2.1/cee28077ac7a63d3de0b205ec314d83944ff6267/asm-6.2.1-sources.jar!/org/objectweb/asm/Context.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MethodCallTiming.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/target/MethodCallTiming.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="283">
+              <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,7 +122,7 @@
       <file leaf-file-name="MethodAdapterTiming.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/methodAdapter/MethodAdapterTiming.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13">
+            <state relative-caret-position="15">
               <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -126,15 +133,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LogManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/handler/LogManager.java">
+      <file leaf-file-name="MethodAdapterTimingVarSorterLog.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/methodAdapter/MethodAdapterTimingVarSorterLog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="26" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="26" />
-              <folding>
-                <element signature="e#125#126#0" expanded="true" />
-                <element signature="e#160#161#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="286">
+              <caret line="32" column="41" lean-forward="true" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -407,15 +410,17 @@
         <option value="$PROJECT_DIR$/src/main/java/com/quinn/asm/common/PathUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/methodAdapter/MethodAdapterTiming.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/methodAdapter/MethodAdapterCall.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/ClassAdapter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/methodAdapter/MethodAdapterTimingVarSorter.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/com/quinn/asm/generate/Gen.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/methodAdapter/MethodAdapterTimingAdvice.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/handler/LogManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/target/MethodCallTiming.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/target/MethodCallTimingLog.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/MethodCall.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/methodAdapter/MethodAdapterTimingVarSorterLog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/methodAdapter/MethodAdapterTimingVarSorter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/ByteCodeWeaver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/ClassAdapter.java" />
       </list>
     </option>
   </component>
@@ -438,6 +443,62 @@
             <path>
               <item name="asmnote" type="b2602c69:ProjectViewProjectNode" />
               <item name="AsmNote" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="asmnote" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AsmNote" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="asmnote" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AsmNote" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="asmnote" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AsmNote" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="asmnote" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AsmNote" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="asmnote" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AsmNote" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="quinn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="asmnote" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AsmNote" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="quinn" type="462c0819:PsiDirectoryNode" />
+              <item name="asm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="asmnote" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AsmNote" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="quinn" type="462c0819:PsiDirectoryNode" />
+              <item name="asm" type="462c0819:PsiDirectoryNode" />
+              <item name="sample2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="asmnote" type="b2602c69:ProjectViewProjectNode" />
@@ -492,7 +553,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="asm" type="462c0819:PsiDirectoryNode" />
               <item name="sample2" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="methodAdapter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="asmnote" type="b2602c69:ProjectViewProjectNode" />
@@ -532,6 +593,7 @@
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.quinn.asm.sample2.methodAdapter" />
+      <recent name="com.quinn.asm.sample2.target" />
       <recent name="com.quinn.asm.sample2" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -553,17 +615,6 @@
   <component name="RunManager" selected="Application.ByteCodeWeaver">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-    </configuration>
-    <configuration name="ASMifierTool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.quinn.asm.asmfier.ASMifierTool" />
-      <module name="asmnote_main" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.quinn.asm.asmfier.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
     </configuration>
     <configuration name="ByteCodeWeaver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.quinn.asm.sample2.ByteCodeWeaver" />
@@ -600,6 +651,17 @@
     </configuration>
     <configuration name="MethodCallTiming" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.quinn.asm.sample2.target.MethodCallTiming" />
+      <module name="asmnote_main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.quinn.asm.sample2.target.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="MethodCallTimingLog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.quinn.asm.sample2.target.MethodCallTimingLog" />
       <module name="asmnote_main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -653,17 +715,17 @@
     <list>
       <item itemvalue="Application.MethodCall" />
       <item itemvalue="Application.ByteCodeWeaver" />
-      <item itemvalue="Application.ASMifierTool" />
       <item itemvalue="Application.MethodCallTiming" />
       <item itemvalue="Application.Gen" />
+      <item itemvalue="Application.MethodCallTimingLog" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.ByteCodeWeaver" />
         <item itemvalue="Application.MethodCall" />
+        <item itemvalue="Application.MethodCallTimingLog" />
         <item itemvalue="Application.MethodCallTiming" />
         <item itemvalue="Application.Gen" />
-        <item itemvalue="Application.ASMifierTool" />
       </list>
     </recent_temporary>
   </component>
@@ -697,10 +759,10 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3291536" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20753205" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20753205" />
       <window_info anchor="bottom" id="Build" order="8" weight="0.32913387" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32913387" />
-      <window_info anchor="right" id="ASM" order="4" visible="true" weight="0.100160256" />
+      <window_info anchor="right" id="ASM" order="4" visible="true" weight="0.036858976" />
       <window_info anchor="right" id="Gradle" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -723,31 +785,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/out/production/classes/com/quinn/asm/sample1/CopyClass.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/6.2.1/c01b6798f81b0fc2c5faa70cbe468c275d4b50c7/asm-6.2.1.jar!/org/objectweb/asm/ClassReader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3630">
-          <caret line="178" column="48" selection-start-line="178" selection-start-column="36" selection-end-line="178" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/6.2.1/c01b6798f81b0fc2c5faa70cbe468c275d4b50c7/asm-6.2.1.jar!/org/objectweb/asm/ClassWriter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample/build.gradle" />
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/6.2.1/c01b6798f81b0fc2c5faa70cbe468c275d4b50c7/asm-6.2.1.jar!/org/objectweb/asm/ClassReader.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3630">
@@ -851,27 +888,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/ClassAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/6.2.1/cee28077ac7a63d3de0b205ec314d83944ff6267/asm-6.2.1-sources.jar!/org/objectweb/asm/Opcodes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="320" column="6" selection-start-line="320" selection-start-column="6" selection-end-line="320" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/class/MethodCall2.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="41" column="46" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -996,29 +1016,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/methodAdapter/MethodAdapterTimingVarSorter.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/6.2.1/cee28077ac7a63d3de0b205ec314d83944ff6267/asm-6.2.1-sources.jar!/org/objectweb/asm/Context.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="148">
+          <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/classes/com/quinn/asm/sample2/MethodCall.class">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/6.2.1/667fa0f9d370e7848b0e3d173942855a91fd1daf/asm-commons-6.2.1-sources.jar!/org/objectweb/asm/commons/LocalVariablesSorter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        <state relative-caret-position="178">
+          <caret line="189" column="81" lean-forward="true" selection-start-line="189" selection-start-column="81" selection-end-line="189" selection-end-column="81" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/methodAdapter/MethodAdapterTiming.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/6.2.1/cee28077ac7a63d3de0b205ec314d83944ff6267/asm-6.2.1-sources.jar!/org/objectweb/asm/ClassReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#253#254#0" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="265">
+          <caret line="62" column="57" selection-start-line="62" selection-start-column="43" selection-end-line="62" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -1035,53 +1050,124 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/target/MethodCallTiming.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
+        <state relative-caret-position="315">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/6.2.1/cee28077ac7a63d3de0b205ec314d83944ff6267/asm-6.2.1-sources.jar!/org/objectweb/asm/Context.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/target/MethodCallTimingLog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+        <state relative-caret-position="60">
+          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/6.2.1/667fa0f9d370e7848b0e3d173942855a91fd1daf/asm-commons-6.2.1-sources.jar!/org/objectweb/asm/commons/LocalVariablesSorter.java">
+    <entry file="file://$PROJECT_DIR$/out/production/classes/com/quinn/asm/sample2/ByteCodeWeaver.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="189" column="81" lean-forward="true" selection-start-line="189" selection-start-column="81" selection-end-line="189" selection-end-column="81" />
+        <state relative-caret-position="398">
+          <caret line="39" column="10" lean-forward="true" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#1387#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/classes/com/quinn/asm/sample2/ClassAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#798#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/methodAdapter/MethodAdapterTiming.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/methodAdapter/MethodAdapterTimingVarSorter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="e#1383#1384#0" expanded="true" />
+            <element signature="e#1437#1438#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/classes/com/quinn/asm/sample2/MethodCall.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/MethodCall.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+        <state relative-caret-position="255">
+          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <folding>
+            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/class/MethodCall.class">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/class/MethodCall2.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+        <state relative-caret-position="267">
+          <caret line="41" column="46" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/6.2.1/cee28077ac7a63d3de0b205ec314d83944ff6267/asm-6.2.1-sources.jar!/org/objectweb/asm/ClassReader.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/6.2.1/cee28077ac7a63d3de0b205ec314d83944ff6267/asm-6.2.1-sources.jar!/org/objectweb/asm/ClassVisitor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="62" column="57" selection-start-line="62" selection-start-column="43" selection-end-line="62" selection-end-column="57" />
+        <state relative-caret-position="865">
+          <caret line="99" column="23" selection-start-line="99" selection-start-column="19" selection-end-line="99" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/ClassAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/ByteCodeWeaver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="27" column="73" lean-forward="true" selection-start-line="27" selection-start-column="73" selection-end-line="27" selection-end-column="73" />
+        <state relative-caret-position="284">
+          <caret line="31" column="14" lean-forward="true" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/class/MethodCall.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="52" column="28" lean-forward="true" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/methodAdapter/MethodAdapterTimingVarSorterLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="32" column="41" lean-forward="true" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
         </state>
       </provider>
     </entry>

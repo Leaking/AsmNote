@@ -28,6 +28,8 @@ public class ByteCodeWeaver {
             ClassWriter cw = new ClassWriter(ClassWriter.COMPUTE_FRAMES);
             ClassAdapter adapter = new ClassAdapter(cw);
             cr.accept(adapter, ClassReader.SKIP_FRAMES);
+            //SKIP_DEBUG  - xx
+            //
 
             FileOutputStream fos = new FileOutputStream(outputPath);
             fos.write(cw.toByteArray());
