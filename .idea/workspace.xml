@@ -2,21 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16b7e004-6771-462f-ae05-69b249b1f171" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/methodAdapter/MethodAdapterTiming.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/target/MethodCallTiming.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_6_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_6_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_io_commons_io_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/methodAdapter/MethodAdapterTimingVarSorter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_analysis_6_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_analysis_6_2_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_tree_6_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_tree_6_2_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_util_6_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_util_6_2_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/asmnote_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/asmnote_main.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/asmnote_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/asmnote_test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/quinn/asm/sample1/CopyClass2.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/com/quinn/asm/sample2/ByteCodeWeaver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/quinn/asm/sample2/ByteCodeWeaver.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/com/quinn/asm/sample2/ClassAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/quinn/asm/sample2/ClassAdapter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/quinn/asm/sample2/MethodAdapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/quinn/asm/sample2/MethodCallInstrumented.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/class/MethodCall2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/class/MethodCall2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/quinn/asm/common/PathUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quinn/asm/common/PathUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/quinn/asm/sample2/MethodCall.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/quinn/asm/sample2/MethodCall.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/quinn/asm/sample2/methodAdapter/MethodAdapterCall.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/quinn/asm/sample2/methodAdapter/MethodAdapterCall.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/quinn/asm/sample2/methodAdapter/MethodAdapterTiming.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/quinn/asm/sample2/methodAdapter/MethodAdapterTiming.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/quinn/asm/sample2/target/MethodCallTiming.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/quinn/asm/sample2/target/MethodCallTiming.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/class/MethodCall.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/class/MethodCall.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/ByteCodeWeaver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/ByteCodeWeaver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/ClassAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/ClassAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/MethodAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/methodAdapter/MethodAdapterCall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/MethodCallInstrumented.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/target/MethodCallInstrumented.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/MethodCall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/MethodCall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/methodAdapter/MethodAdapterCall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/methodAdapter/MethodAdapterCall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/methodAdapter/MethodAdapterTiming.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/methodAdapter/MethodAdapterTiming.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/target/MethodCallTiming.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/target/MethodCallTiming.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/class/MethodCall.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/class/MethodCall.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -31,6 +44,11 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -38,10 +56,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ByteCodeWeaver.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ByteCodeWeaver.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/ByteCodeWeaver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
+            <state relative-caret-position="210">
               <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -50,41 +68,67 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MethodCall.class" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/class/MethodCall.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MethodCallTiming.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/target/MethodCallTiming.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="140">
+              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MethodAdapterTiming.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MethodCallInstrumented.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/target/MethodCallInstrumented.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LocalVariablesSorter.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/6.2.1/667fa0f9d370e7848b0e3d173942855a91fd1daf/asm-commons-6.2.1-sources.jar!/org/objectweb/asm/commons/LocalVariablesSorter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="277" column="35" lean-forward="true" selection-start-line="277" selection-start-column="35" selection-end-line="277" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MethodAdapterTimingVarSorter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/methodAdapter/MethodAdapterTimingVarSorter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MethodCall.class" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/class/MethodCall.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="257">
+              <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MethodCall.class" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/out/production/classes/com/quinn/asm/sample2/MethodCall.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-117" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MethodAdapterTiming.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/methodAdapter/MethodAdapterTiming.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PathUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/quinn/asm/common/PathUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="41" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="41" />
+            <state relative-caret-position="75">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding>
-                <element signature="e#456#457#0" expanded="true" />
-                <element signature="e#509#510#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#253#254#0" expanded="true" />
+                <element signature="e#284#285#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,21 +137,12 @@
       <file leaf-file-name="MethodCall.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/MethodCall.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+            <state relative-caret-position="150">
+              <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
               <folding>
-                <element signature="e#214#215#0" expanded="true" />
-                <element signature="e#263#264#0" expanded="true" />
+                <element signature="e#83#84#0" expanded="true" />
+                <element signature="e#109#110#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MethodCall2.class" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/class/MethodCall2.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="41" column="46" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -125,6 +160,9 @@
     <findStrings>
       <find>err</find>
       <find>5</find>
+      <find>visitVarInsn</find>
+      <find>onMethodEnter</find>
+      <find>onMethodExit</find>
     </findStrings>
     <replaceStrings>
       <replace>out</replace>
@@ -136,12 +174,12 @@
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
-        <entry key="$PROJECT_DIR$" value="$PROJECT_DIR$/../../gradle/gradle-4.9" />
+        <entry key="$PROJECT_DIR$" value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4" />
       </map>
     </option>
     <option name="myGradleVersions">
       <map>
-        <entry key="$PROJECT_DIR$" value="4.9" />
+        <entry key="$PROJECT_DIR$" value="4.4" />
       </map>
     </option>
     <option name="availableProjects">
@@ -311,9 +349,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4605605469000" />
+        <entry key="$PROJECT_DIR$" value="4605678633000" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="2294816633" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="1489397416" />
         <entry key="$PROJECT_DIR$/sample/build.gradle" value="2741792222" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="2398374809" />
       </map>
@@ -344,152 +382,6 @@
               <option name="name" value="asmnote" />
               <option name="projectBuildClasspath">
                 <list>
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/announce" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/antlr" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/base-services" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/base-services-groovy" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/build-cache" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/build-cache-http" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/build-comparison" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/build-init" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/build-option" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/cli" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/code-quality" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/composite-builds" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/core" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/core-api" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/dependency-management" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/diagnostics" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/ear" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/ide" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/ide-native" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/ide-play" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/installation-beacon" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/internal-android-performance-testing" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/internal-integ-testing" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/internal-performance-testing" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/internal-testing" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/ivy" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/jacoco" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/javascript" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/jvm-services" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/language-groovy" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/language-java" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/language-jvm" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/language-native" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/language-scala" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/launcher" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/logging" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/maven" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/messaging" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/model-core" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/model-groovy" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/native" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/osgi" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/persistent-cache" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/platform-base" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/platform-jvm" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/platform-native" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/platform-play" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/plugin-development" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/plugin-use" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/plugins" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/process-services" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/publish" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/reporting" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/resources" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/resources-gcs" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/resources-http" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/resources-s3" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/resources-sftp" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/scala" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/signing" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/test-kit" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/testing-base" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/testing-junit-platform" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/testing-jvm" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/testing-native" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/tooling-api" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/tooling-api-builders" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/version-control" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/workers" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/src/wrapper" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/ant-1.9.11.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/ant-launcher-1.9.11.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/gradle-base-services-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/gradle-base-services-groovy-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/gradle-build-cache-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/gradle-build-option-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/gradle-cli-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/gradle-core-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/gradle-core-api-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/gradle-docs-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/gradle-installation-beacon-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/gradle-jvm-services-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/gradle-kotlin-dsl-0.18.4.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/gradle-kotlin-dsl-provider-plugins-0.18.4.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/gradle-kotlin-dsl-tooling-builders-0.18.4.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/gradle-kotlin-dsl-tooling-models-0.18.4.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/gradle-launcher-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/gradle-logging-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/gradle-messaging-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/gradle-model-core-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/gradle-model-groovy-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/gradle-native-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/gradle-persistent-cache-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/gradle-process-services-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/gradle-resources-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/gradle-runtime-api-info-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/gradle-tooling-api-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/gradle-wrapper-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/groovy-all-2.4.12.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/plugins/gradle-announce-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/plugins/gradle-antlr-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/plugins/gradle-build-cache-http-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/plugins/gradle-build-comparison-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/plugins/gradle-build-init-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/plugins/gradle-code-quality-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/plugins/gradle-composite-builds-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/plugins/gradle-dependency-management-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/plugins/gradle-diagnostics-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/plugins/gradle-ear-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/plugins/gradle-ide-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/plugins/gradle-ide-native-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/plugins/gradle-ide-play-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/plugins/gradle-ivy-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/plugins/gradle-jacoco-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/plugins/gradle-javascript-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/plugins/gradle-language-groovy-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/plugins/gradle-language-java-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/plugins/gradle-language-jvm-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/plugins/gradle-language-native-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/plugins/gradle-language-scala-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/plugins/gradle-maven-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/plugins/gradle-osgi-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/plugins/gradle-platform-base-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/plugins/gradle-platform-jvm-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/plugins/gradle-platform-native-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/plugins/gradle-platform-play-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/plugins/gradle-plugin-development-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/plugins/gradle-plugin-use-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/plugins/gradle-plugins-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/plugins/gradle-publish-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/plugins/gradle-reporting-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/plugins/gradle-resources-gcs-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/plugins/gradle-resources-http-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/plugins/gradle-resources-s3-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/plugins/gradle-resources-sftp-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/plugins/gradle-scala-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/plugins/gradle-signing-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/plugins/gradle-test-kit-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/plugins/gradle-testing-base-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/plugins/gradle-testing-junit-platform-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/plugins/gradle-testing-jvm-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/plugins/gradle-testing-native-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/plugins/gradle-tooling-api-builders-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/plugins/gradle-version-control-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/plugins/gradle-workers-4.9.jar" />
-                  <option value="$PROJECT_DIR$/../../gradle/gradle-4.9/lib/plugins/ivy-2.2.0.jar" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
                 </list>
@@ -499,12 +391,16 @@
         </entry>
       </map>
     </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/settings.gradle" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample1/PathUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample1/CopyClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample_methodcall/sample1/MethodCall.java" />
@@ -512,23 +408,27 @@
         <option value="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/MethodCallInstrumented.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/quinn/asm/asmfier/ASMifierTool.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/MethodAdapter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/MethodCall.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/quinn/asm/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/MethodCallTiming.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/target/MethodCallTiming.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quinn/asm/common/PathUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/methodAdapter/MethodAdapterTiming.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/methodAdapter/MethodAdapterCall.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/ClassAdapter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/quinn/asm/common/PathUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/ByteCodeWeaver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/methodAdapter/MethodAdapterTiming.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/methodAdapter/MethodAdapterTimingVarSorter.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quinn/asm/generate/Gen.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/target/MethodCallTiming.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/MethodCall.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/methodAdapter/MethodAdapterTimingAdvice.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="20" />
-    <option name="y" value="30" />
+    <option name="x" value="16" />
+    <option name="y" value="23" />
     <option name="width" value="1248" />
-    <option name="height" value="712" />
+    <option name="height" value="709" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -548,6 +448,76 @@
               <item name="asmnote" type="b2602c69:ProjectViewProjectNode" />
               <item name="AsmNote" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="asmnote" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AsmNote" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="asmnote" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AsmNote" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="asmnote" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AsmNote" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="asmnote" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AsmNote" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="quinn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="asmnote" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AsmNote" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="quinn" type="462c0819:PsiDirectoryNode" />
+              <item name="asm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="asmnote" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AsmNote" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="quinn" type="462c0819:PsiDirectoryNode" />
+              <item name="asm" type="462c0819:PsiDirectoryNode" />
+              <item name="sample2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="asmnote" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AsmNote" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="quinn" type="462c0819:PsiDirectoryNode" />
+              <item name="asm" type="462c0819:PsiDirectoryNode" />
+              <item name="sample2" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="asmnote" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AsmNote" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="asmnote" type="b2602c69:ProjectViewProjectNode" />
@@ -574,6 +544,33 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="asm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="asmnote" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AsmNote" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="asm" type="462c0819:PsiDirectoryNode" />
+              <item name="asmfier" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="asmnote" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AsmNote" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="asm" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="asmnote" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AsmNote" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="asm" type="462c0819:PsiDirectoryNode" />
+              <item name="generate" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="asmnote" type="b2602c69:ProjectViewProjectNode" />
@@ -627,21 +624,25 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="LocalVariablesSorter&#9;PSI&#9;JAVA://jdk.internal.org.objectweb.asm.commons.LocalVariablesSorter&#10;AdviceAdapter&#9;PSI&#9;JAVA://jdk.internal.org.objectweb.asm.commons.AdviceAdapter&#10;visitVarInsn&#9;PSI&#9;JAVA://org.objectweb.asm.MethodVisitor#visitVarInsn" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="asmbytecodeplugin" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.quinn.asm.sample2.methodAdapter" />
       <recent name="com.quinn.asm.sample2" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/out/production/classes/com/quinn/asm/sample2" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -682,19 +683,19 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="MethodCall" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.quinn.asm.sample2.MethodCall" />
+    <configuration name="Gen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.quinn.asm.generate.Gen" />
       <module name="asmnote_main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.quinn.asm.sample2.target.*" />
+          <option name="PATTERN" value="com.quinn.asm.generate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="MethodCallInstrumented" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.quinn.asm.sample2.target.MethodCallInstrumented" />
+    <configuration name="MethodCall" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.quinn.asm.sample2.MethodCall" />
       <module name="asmnote_main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -758,18 +759,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.MethodCall" />
-      <item itemvalue="Application.MethodCallInstrumented" />
       <item itemvalue="Application.ByteCodeWeaver" />
       <item itemvalue="Application.ASMifierTool" />
       <item itemvalue="Application.MethodCallTiming" />
+      <item itemvalue="Application.Gen" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.ByteCodeWeaver" />
-        <item itemvalue="Application.MethodCall" />
         <item itemvalue="Application.MethodCallTiming" />
+        <item itemvalue="Application.Gen" />
+        <item itemvalue="Application.MethodCall" />
         <item itemvalue="Application.ASMifierTool" />
-        <item itemvalue="Application.MethodCallInstrumented" />
       </list>
     </recent_temporary>
   </component>
@@ -787,184 +788,48 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="20" y="30" width="1248" height="712" extended-state="0" />
+    <frame x="16" y="23" width="1248" height="709" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32913387" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.42163008" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32913387" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32283464" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3291536" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25801283" />
-      <window_info anchor="right" id="ASM" order="4" visible="true" weight="0.23317307" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20753205" />
+      <window_info anchor="bottom" id="Build" order="8" weight="0.32913387" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32913387" />
+      <window_info anchor="right" id="ASM" order="4" visible="true" weight="0.28766027" />
       <window_info anchor="right" id="Gradle" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="7" />
-      <window_info anchor="bottom" id="Run with VisualVM" order="7" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" x="103" y="131" width="2359" height="1111" id="Byte Code Viewer" order="4" visible="true" weight="0.32981634" />
       <window_info anchor="bottom" id="JSON Formatter" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32976973" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/ClassAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/MethodCall.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#214#215#0" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/methodAdapter/MethodAdapterCall.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#280#281#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/target/MethodCallInstrumented.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/quinn/asm/sample1/CopyClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="23" column="9" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="23" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/classes/com/quinn/asm/sample2/MethodCallInstrumented.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/ByteCodeWeaver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/ClassAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/quinn/asm/common/PathUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="85" lean-forward="true" selection-start-line="12" selection-start-column="85" selection-end-line="12" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/methodAdapter/MethodAdapterCall.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="13" column="42" lean-forward="true" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#280#281#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/MethodCall.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-          <folding>
-            <element signature="e#214#215#0" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/6.2.1/c01b6798f81b0fc2c5faa70cbe468c275d4b50c7/asm-6.2.1.jar!/org/objectweb/asm/ClassWriter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/quinn/asm/sample1/CopyClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="18" column="94" selection-start-line="18" selection-start-column="94" selection-end-line="18" selection-end-column="94" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-util/6.2.1/400d664d7c92a659d988c00cb65150d1b30cf339/asm-util-6.2.1.jar!/org/objectweb/asm/util/ASMifier.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1034">
-          <caret line="47" column="27" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-util/6.2.1/400d664d7c92a659d988c00cb65150d1b30cf339/asm-util-6.2.1.jar!/org/objectweb/asm/util/Printer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5720">
-          <caret line="286" column="65" selection-start-line="286" selection-start-column="61" selection-end-line="286" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/quinn/asm/common/PathUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -973,13 +838,7 @@
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/lang/ClassLoader.java" />
-    <entry file="file://$PROJECT_DIR$/out/production/classes/com/quinn/asm/sample1/CopyClass2.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/classes/com/quinn/asm/sample1/CopyClass2.class" />
     <entry file="file://$PROJECT_DIR$/out/production/classes/com/quinn/asm/sample1/CopyClass.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1005,13 +864,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/6.2.1/c01b6798f81b0fc2c5faa70cbe468c275d4b50c7/asm-6.2.1.jar!/org/objectweb/asm/ClassReader.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3630">
@@ -1022,13 +874,7 @@
     <entry file="file://$PROJECT_DIR$/out/production/classes/com/quinn/asm/sample1/CopyClass.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/classes/com/quinn/asm/sample1/CopyClass2.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/classes/com/quinn/asm/sample1/CopyClass2.class" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/lang/ClassLoader.java" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-util/6.2.1/400d664d7c92a659d988c00cb65150d1b30cf339/asm-util-6.2.1.jar!/org/objectweb/asm/util/Printer.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -1058,51 +904,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/quinn/asm/asmfier/ASMifierTool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/classes/com/quinn/asm/sample2/MethodCallInstrumented.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/classes/com/quinn/asm/sample2/MethodCallInstrumented.class" />
     <entry file="jar://$USER_HOME$/.ideaLibSources/asm-6.2.1-sources.jar!/org/objectweb/asm/MethodVisitor.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/quinn/asm/sample1/CopyClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/quinn/asm/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/target/MethodCallInstrumented.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quinn/asm/Test.java" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/6.2.1/c01b6798f81b0fc2c5faa70cbe468c275d4b50c7/asm-6.2.1.jar!/org/objectweb/asm/MethodVisitor.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
@@ -1110,56 +914,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/6.2.1/cee28077ac7a63d3de0b205ec314d83944ff6267/asm-6.2.1-sources.jar!/org/objectweb/asm/MethodVisitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="423" column="2" lean-forward="true" selection-start-line="423" selection-start-column="2" selection-end-line="439" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-util/6.2.1/400d664d7c92a659d988c00cb65150d1b30cf339/asm-util-6.2.1.jar!/org/objectweb/asm/util/CheckMethodAdapter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1221">
           <caret line="56" column="11" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
-          <folding>
-            <element signature="e#2225#2226#0" expanded="true" />
-            <element signature="e#2281#2282#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/methodAdapter/MethodAdapterCall.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="6" selection-start-line="5" selection-end-line="5" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#280#281#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/ClassAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/MethodCall.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-          <folding>
-            <element signature="e#214#215#0" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1174,41 +932,249 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/ByteCodeWeaver.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-util/6.2.1/400d664d7c92a659d988c00cb65150d1b30cf339/asm-util-6.2.1.jar!/org/objectweb/asm/util/TraceMethodVisitor.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        <state relative-caret-position="-2526">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-util/6.2.1/c9f7246bf93bb0dc7fe9e7c9eca531a8fb98d252/asm-util-6.2.1-sources.jar!/org/objectweb/asm/util/TraceMethodVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="45" column="25" lean-forward="true" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar!/jdk/internal/org/objectweb/asm/commons/LocalVariablesSorter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/6.2.1/667fa0f9d370e7848b0e3d173942855a91fd1daf/asm-commons-6.2.1-sources.jar!/org/objectweb/asm/commons/RemappingMethodAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="48" column="25" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/6.2.1/667fa0f9d370e7848b0e3d173942855a91fd1daf/asm-commons-6.2.1-sources.jar!/org/objectweb/asm/commons/RemappingClassAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1305">
+          <caret line="121" column="66" selection-start-line="121" selection-start-column="60" selection-end-line="121" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/ClassAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/6.2.1/cee28077ac7a63d3de0b205ec314d83944ff6267/asm-6.2.1-sources.jar!/org/objectweb/asm/Opcodes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="320" column="6" selection-start-line="320" selection-start-column="6" selection-end-line="320" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/class/MethodCall2.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
+        <state relative-caret-position="219">
           <caret line="41" column="46" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/methodAdapter/MethodAdapterCall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5">
+          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/6.2.1/667fa0f9d370e7848b0e3d173942855a91fd1daf/asm-commons-6.2.1-sources.jar!/org/objectweb/asm/commons/GeneratorAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="1389" column="14" selection-start-line="1389" selection-start-column="14" selection-end-line="1389" selection-end-column="14" />
+          <folding>
+            <element signature="e#44571#44572#0" expanded="true" />
+            <element signature="e#44615#44616#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/6.2.1/667fa0f9d370e7848b0e3d173942855a91fd1daf/asm-commons-6.2.1-sources.jar!/org/objectweb/asm/commons/AdviceAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="153" column="22" selection-start-line="153" selection-start-column="10" selection-end-line="153" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quinn/asm/asmfier/ASMifierTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/6.2.1/cee28077ac7a63d3de0b205ec314d83944ff6267/asm-6.2.1-sources.jar!/org/objectweb/asm/MethodVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="699" column="14" selection-start-line="699" selection-start-column="14" selection-end-line="699" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quinn/asm/sample1/CopyClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quinn/asm/generate/Gen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/class/dump.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/classes/com/quinn/asm/sample2/target/MethodCallInstrumented.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#1166#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/classes/com/quinn/asm/sample2/target/MethodCallTiming.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#879#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/classes/com/quinn/asm/sample2/MethodCall.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-117" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/MethodCall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding>
+            <element signature="e#83#84#0" expanded="true" />
+            <element signature="e#109#110#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/class/MethodCall.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        <state relative-caret-position="257">
+          <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/target/MethodCallTiming.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        <state relative-caret-position="140">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/target/MethodCallInstrumented.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/methodAdapter/MethodAdapterTiming.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/methodAdapter/MethodAdapterTimingVarSorter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/methodAdapter/MethodAdapterTimingAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/6.2.1/667fa0f9d370e7848b0e3d173942855a91fd1daf/asm-commons-6.2.1-sources.jar!/org/objectweb/asm/commons/LocalVariablesSorter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="277" column="35" lean-forward="true" selection-start-line="277" selection-start-column="35" selection-end-line="277" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quinn/asm/sample2/ByteCodeWeaver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

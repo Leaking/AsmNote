@@ -6,7 +6,7 @@ import org.objectweb.asm.Opcodes;
 public class MethodAdapterCall extends MethodVisitor implements Opcodes {
 
     public MethodAdapterCall(final MethodVisitor mv) {
-        super(ASM5, mv);
+        super(ASM6, mv);
     }
 
     @Override

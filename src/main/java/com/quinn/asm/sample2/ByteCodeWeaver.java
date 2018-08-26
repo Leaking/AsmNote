@@ -25,7 +25,7 @@ public class ByteCodeWeaver {
             FileInputStream is = new FileInputStream(inputPath);
 
             ClassReader cr = new ClassReader(is);
-            ClassWriter cw = new ClassWriter(ClassWriter.COMPUTE_FRAMES);
+            ClassWriter cw = new ClassWriter(ClassWriter.COMPUTE_MAXS);
             ClassAdapter adapter = new ClassAdapter(cw);
             cr.accept(adapter, 0);
 
