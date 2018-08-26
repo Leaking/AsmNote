@@ -38,7 +38,6 @@ public class MethodAdapterTimingVarSorterLog extends LocalVariablesSorter implem
             mv.visitLdcInsn(methodName);
             mv.visitVarInsn(Opcodes.LLOAD, index);
             mv.visitMethodInsn(Opcodes.INVOKESTATIC, "com/quinn/asm/sample2/handler/LogManager", "log", "(Ljava/lang/String;J)V", false);
-
         }
         super.visitInsn(opcode);
     }

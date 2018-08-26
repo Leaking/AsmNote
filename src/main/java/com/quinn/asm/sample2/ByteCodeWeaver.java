@@ -27,9 +27,11 @@ public class ByteCodeWeaver {
             ClassReader cr = new ClassReader(is);
             ClassWriter cw = new ClassWriter(ClassWriter.COMPUTE_FRAMES);
             ClassAdapter adapter = new ClassAdapter(cw);
-            cr.accept(adapter, ClassReader.SKIP_FRAMES);
-            //SKIP_DEBUG  - xx
-            //
+            cr.accept(adapter, ClassReader.EXPAND_FRAMES);
+            //SKIP_DEBUG  - crash
+            //SKIP_CODE   - 方法全空
+            //SKIP_FRAMES   - OK
+            //EXPAND_FRAMES   - OK
 
             FileOutputStream fos = new FileOutputStream(outputPath);
             fos.write(cw.toByteArray());
