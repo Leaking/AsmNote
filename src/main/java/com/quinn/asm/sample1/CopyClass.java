@@ -16,11 +16,29 @@ public class CopyClass {
 //        CopyClass copyClass = new CopyClass();
 //        copyClass.call("/Users/quinn/Documents/workspaces/asmnote/out/production/classes/com/quinn/asm/sample1/CopyClass.class",
 //                PathUtils.getResourcesPath() + File.separator + "class" + File.separator + "CopyClass2.class");
-        String[] params = {"/Users/quinn/Documents/workspaces/asmnote/out/production/classes/com/quinn/asm/sample1/CopyClass.class"};
-        try {
-            ASMifier.main(params);
-        } catch (IOException e) {
-            e.printStackTrace();
+//        String[] params = {"/Users/quinn/Documents/workspaces/asmnote/out/production/classes/com/quinn/asm/sample1/CopyClass.class"};
+//        try {
+//            ASMifier.main(params);
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+
+        a();
+    }
+
+    static int count = 0;
+    public static void a() {
+        if(count < 20) {
+            if(count == 19) {
+                long start = System.currentTimeMillis();
+                for(int i = 0; i < 100; i++) {
+                    StackTraceElement[] stackTraceElements = new Throwable().getStackTrace();
+                }
+                long end = System.currentTimeMillis();
+                System.out.println("costed " + (end - start));
+            }
+            ++count;
+            a();
         }
     }
 
@@ -37,6 +55,12 @@ public class CopyClass {
             fos.close();
         } catch (IOException e) {
             e.printStackTrace();
+        }
+    }
+
+    static class CopyInner{
+        public void go(){
+
         }
     }
 }

@@ -9,7 +9,7 @@ public class PathUtils {
         return workingDir + File.separator + "src/main/resources";
     }
 
-    public static String getGenerateClassPath(String name){
+    public static String getTestClassPath(String name){
         return getResourcesPath() + File.separator + "class" + File.separator + name;
     }
 }

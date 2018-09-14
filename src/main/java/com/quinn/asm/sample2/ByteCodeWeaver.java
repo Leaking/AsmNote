@@ -14,8 +14,8 @@ import java.io.IOException;
 public class ByteCodeWeaver {
 
     public static void main(String[] args) {
-        String inputFile = "/Users/quinn/Documents/workspaces/asmnote/out/production/classes/com/quinn/asm/sample2/MethodCall.class";
-        String outputFile = PathUtils.getGenerateClassPath("MethodCall2.class");
+        String inputFile = PathUtils.getTestClassPath("Demo.class");
+        String outputFile = PathUtils.getTestClassPath("DemoResult.class");
         run(inputFile, outputFile);
     }
 

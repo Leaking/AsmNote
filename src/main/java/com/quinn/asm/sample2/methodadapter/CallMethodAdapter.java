@@ -1,11 +1,11 @@
-package com.quinn.asm.sample2;
+package com.quinn.asm.sample2.methodadapter;
 
 import org.objectweb.asm.MethodVisitor;
 import org.objectweb.asm.Opcodes;
 
-class MethodAdapter extends MethodVisitor implements Opcodes {
+class CallMethodAdapter extends MethodVisitor implements Opcodes {
 
-    public MethodAdapter(final MethodVisitor mv) {
+    public CallMethodAdapter(final MethodVisitor mv) {
         super(ASM5, mv);
     }
 
@@ -24,5 +24,13 @@ class MethodAdapter extends MethodVisitor implements Opcodes {
         mv.visitLdcInsn("RETURN " + name);
         mv.visitMethodInsn(Opcodes.INVOKEVIRTUAL, "java/io/PrintStream", "println", "(Ljava/lang/String;)V", false);
 
+    }
+
+
+
+    @Override
+    public void visitParameter(String name, int access) {
+        System.out.println("name " + name);
+        super.visitParameter(name, access);
     }
 }
