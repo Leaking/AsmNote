@@ -12,4 +12,8 @@ public class PathUtils {
     public static String getTestClassPath(String name){
         return getResourcesPath() + File.separator + "class" + File.separator + name;
     }
+
+    public static String getWorkspacePath() {
+        return System.getProperty("user.dir");
+    }
 }

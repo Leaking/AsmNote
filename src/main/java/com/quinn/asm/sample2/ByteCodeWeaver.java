@@ -4,6 +4,7 @@ import com.quinn.asm.common.PathUtils;
 import org.objectweb.asm.ClassReader;
 import org.objectweb.asm.ClassWriter;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -14,8 +15,13 @@ import java.io.IOException;
 public class ByteCodeWeaver {
 
     public static void main(String[] args) {
+<<<<<<< HEAD
         String inputFile = PathUtils.getTestClassPath("Demo.class");
         String outputFile = PathUtils.getTestClassPath("DemoResult.class");
+=======
+        String inputFile = PathUtils.getWorkspacePath() + File.separator + "out/production/classes/com/quinn/asm/sample2/MethodCall.class";
+        String outputFile = PathUtils.getGenerateClassPath("MethodCall.class");
+>>>>>>> c6c93b2c6ce590fb98d9f12852932aec3fb2bfd6
         run(inputFile, outputFile);
     }
 
@@ -26,7 +32,11 @@ public class ByteCodeWeaver {
             ClassReader cr = new ClassReader(is);
             ClassWriter cw = new ClassWriter(ClassWriter.COMPUTE_FRAMES);
             ClassAdapter adapter = new ClassAdapter(cw);
-            cr.accept(adapter, 0);
+            cr.accept(adapter, ClassReader.EXPAND_FRAMES);
+            //SKIP_DEBUG  - crash
+            //SKIP_CODE   - 方法全空
+            //SKIP_FRAMES   - OK
+            //EXPAND_FRAMES   - OK
 
             FileOutputStream fos = new FileOutputStream(outputPath);
             fos.write(cw.toByteArray());
